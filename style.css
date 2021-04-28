@@ -1,0 +1,45 @@
+svg {
+    background-color: darkslategrey;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+#canvas {
+    margin: auto;
+    padding: 19px;
+}
+
+
+
+svg#legend {
+    margin: auto;
+    padding: 20px;
+}
+
+.cell:hover {
+    fill: black;
+    cursor: pointer;
+    
+}
+
+#tooltip {
+    visibility: hidden;
+    padding: 20px;
+    margin: auto;
+    font-size: 25px;
+}
+
+h1#title {
+    margin: auto;
+}
+
+p#description {
+    margin: auto;
+    font-size: 20px;
+}
